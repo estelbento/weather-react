@@ -12,6 +12,17 @@ root.render(
     <div className="App">
       <h1>Weather React App</h1>
       <App />
+      <br />
+      <small>
+        <a
+          href="https://github.com/estelbento/weather-react"
+          rel="noreferrer"
+          target="_blank"
+        >
+          open-sourced code
+        </a>
+        {""} by Estela Bento
+      </small>
     </div>
   </StrictMode>
 );
